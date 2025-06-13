@@ -93,6 +93,7 @@ export const ReviewForm: React.FC<ReviewFormProps> = (props) => {
 				})
 				.catch((error) => console.log(error));
 		}
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	return (

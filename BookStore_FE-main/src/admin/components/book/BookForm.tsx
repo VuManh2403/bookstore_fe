@@ -78,6 +78,7 @@ export const BookForm: React.FC<BookFormProps> = (props) => {
 	// Khúc này để lưu danh sách thể loại của sách
 	useEffect(() => {
 		setBook({ ...book, idGenres: genresListSelected });
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [genresListSelected]);
 
 	async function hanleSubmit(event: FormEvent<HTMLFormElement>) {

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import BookModel from "../../model/BookModel";
 import { getHotBook } from "../../api/BookApi";
 import BookProps from "./components/BookProps";
-import { useCartItem } from "../utils/CartItemContext";
 import { Skeleton } from "@mui/material";
 
 interface HotBookListProps {}
