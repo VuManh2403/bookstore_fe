@@ -6,22 +6,21 @@ function About() {
 	return (
 		<div className='w-100 h-100 d-flex align-items-center justify-content-center flex-column m-5'>
 			<div className='w-50 h-50 p-3 rounded-5 shadow-4-strong bg-light'>
-				<h3 className='text-center text-black'>Giới thiệu về ZoiBook</h3>
+				<h3 className='text-center text-black'>Giới thiệu về BookStore</h3>
 				<hr />
 				<div className='row'>
 					<div className='col-lg-8'>
 						<p>
-							<strong>Tên website: </strong>ZoiBook
+							<strong>Tên website: </strong>BookStore
 						</p>
 						<p>
-							<strong>Địa chỉ: </strong>97/13+15 Ung Văn Khiêm, P25, quận
-							Bình Thạnh
+							<strong>Địa chỉ: </strong>Hà Nội
 						</p>
 						<p>
-							<strong>Số điện thoại: </strong>0813535314
+							<strong>Số điện thoại: </strong>0963561525
 						</p>
 						<p>
-							<strong>Email: </strong>zoibook-store@gmail.com
+							<strong>Email: </strong>BookStore@gmail.com
 						</p>
 					</div>
 					<div className='col-lg-4'>
@@ -30,7 +29,7 @@ function About() {
 							style={{ border: "1px solid #ccc" }}
 						>
 							<img
-								src={"./../../../images/public/logo.svg"}
+								src={"/images/public/BookStore.png"}
 								width='150'
 								alt='MDB Logo'
 								loading='lazy'
@@ -45,7 +44,7 @@ function About() {
 				<div className='d-flex align-items-center justify-content-center'>
 					<iframe
 						title='Map'
-						src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7718648167253!2d106.71648955933027!3d10.804613354430936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293dceb22197%3A0x755bb0f39a48d4a6!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmggLSBDxqEgc-G7nyAx!5e0!3m2!1svi!2s!4v1699964965789!5m2!1svi!2s'
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6619654527212!2d105.84055577503081!3d21.006183180637493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac71294bf0ab%3A0xc7e2d20e5e04a9da!2zxJDhuqFpIEjhu41jIELDoWNoIEtob2EgSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1746062304720!5m2!1svi!2s"
 						width='600'
 						height='450'
 						style={{ border: 0 }}

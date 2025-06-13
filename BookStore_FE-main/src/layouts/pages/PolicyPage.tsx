@@ -1,5 +1,6 @@
 import React from "react";
 import useScrollToTop from "../../hooks/ScrollToTop";
+import {Link} from "react-router-dom";
 
 const PolicyPage: React.FC = () => {
 	useScrollToTop(); // Mỗi lần vào component này thì sẽ ở trên cùng
@@ -10,26 +11,26 @@ const PolicyPage: React.FC = () => {
 			<p>
 				Chúng tôi luôn trân trọng sự tin tưởng và ủng hộ của quý khách hàng
 				khi trải nghiệm mua hàng tại{" "}
-				<a href='#!'>
-					<strong>ZoiBook</strong>
-				</a>
+				<Link to='/'>
+					<strong>BookStore</strong>
+				</Link>
 				. Do đó chúng tôi luôn cố gắng hoàn thiện dịch vụ tốt nhất để phục
 				vụ mọi nhu cầu mua sắm của quý khách.
 			</p>
 			<p>
-				<a href='#!'>
-					<strong>ZoiBook</strong>
-				</a>{" "}
+				<Link to='/'>
+					<strong>BookStore</strong>
+				</Link>{" "}
 				chúng tôi luôn luôn cam kết tất cả các sản phẩm bán tại{" "}
-				<a href='#!'>
-					<strong>ZoiBook</strong>
-				</a>{" "}
+				<Link to='/'>
+					<strong>BookStore</strong>
+				</Link>{" "}
 				100% là những sản phẩm chất lượng và xuất xứ nguồn gốc rõ ràng, hợp
 				pháp cũng như an toàn cho người tiêu dùng. Để việc mua sắm của quý
 				khách tại{" "}
-				<a href='#!'>
-					<strong>ZoiBook</strong>
-				</a>{" "}
+				<Link to='/'>
+					<strong>BookStore</strong>
+				</Link>{" "}
 				là trải nghiệm dịch vụ thân thiện, chúng tôi hy vọng quý khách sẽ
 				kiểm tra kỹ các nội dung sau trước khi nhận hàng:&nbsp;
 			</p>
@@ -50,14 +51,14 @@ const PolicyPage: React.FC = () => {
 			</p>
 			<p>
 				Khi quý khách hàng có hàng hóa mua tại{" "}
-				<a href='#!'>
-					<strong>ZoiBook</strong>
-				</a>
+				<Link to='/'>
+					<strong>BookStore</strong>
+				</Link>
 				cần đổi/ trả/bảo hành/hoàn tiền, xin quý khách hàng liên hệ với
 				chúng tôi qua hotline <strong>1900636467</strong> hoặc truy cập{" "}
-				<a href='#!chinh-sach-doi-tra-hang'>
-					<strong>zoiBook.com/chinh-sach-doi-tra-hang</strong>
-				</a>{" "}
+				<Link to='/chinh-sach'>
+					<strong>BookStore.com/chinh-sach-doi-tra-hang</strong>
+				</Link>{" "}
 				để tìm hiểu thêm về chính sách đổi/trả:
 			</p>
 			<strong>1. Thời gian áp dụng đổi/trả</strong> <br />
@@ -68,143 +69,143 @@ const PolicyPage: React.FC = () => {
 				className='table table-bordered'
 			>
 				<tbody>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-						<td>
-							<p>
-								<strong>KỂ TỪ KHI </strong>
-								<strong>ZoiBook </strong>
-								<strong>GIAO HÀNG THÀNH CÔNG</strong>
-							</p>
-						</td>
-						<td>
-							<p>
-								<strong>
-									SẢN PHẨM LỖI
-									<br /> (do nhà cung cấp)
-								</strong>
-							</p>
-						</td>
-						<td>
-							<p>
-								<strong>SẢN PHẨM KHÔNG LỖI&nbsp;(*)</strong>
-							</p>
-						</td>
-						<td>
-							<p>
-								<strong>SẢN PHẨM LỖI DO NGƯỜI SỬ DỤNG</strong>
-							</p>
-						</td>
-					</tr>
-					<tr>
-						<td rowSpan={4}>
-							<p>
-								Sản phẩm Điện tử, Đồ chơi điện - điện tử, điện gia
-								dụng,... (có tem phiếu bảo hành từ nhà cung cấp)
-							</p>
-						</td>
-						<td rowSpan={2}>
-							<p>7 ngày đầu tiên</p>
-						</td>
-						<td>
-							<p>Đổi mới</p>
-						</td>
-						<td rowSpan={3}>
-							<p>Trả hàng không thu phí</p>
-						</td>
-						<td rowSpan={4}>
-							<p>
-								Bảo hành hoặc sửa chữa có thu phí theo quy định của nhà
-								cung cấp.
-							</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Trả không thu phí</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>8 - 30 ngày</p>
-						</td>
-						<td>
-							<p>Bảo hành</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>30 ngày trở đi</p>
-						</td>
-						<td>
-							<p>Bảo hành</p>
-						</td>
-						<td>
-							<p>Không hỗ trợ đổi/ trả</p>
-						</td>
-					</tr>
-					<tr>
-						<td rowSpan={3}>
-							<p>Voucher/ E-voucher</p>
-						</td>
-						<td rowSpan={2}>
-							<p>30 ngày đầu tiên</p>
-						</td>
-						<td>
-							<p>Đổi mới</p>
-						</td>
-						<td rowSpan={2}>
-							<p>Không hỗ trợ đổi/ trả</p>
-						</td>
-						<td rowSpan={2}>
-							<p>Không hỗ trợ đổi/ trả</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Trả hàng không thu phí</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>30 ngày trở đi</p>
-						</td>
-						<td colSpan={3}>
-							<p>Không hỗ trợ đổi trả</p>
-						</td>
-					</tr>
-					<tr>
-						<td rowSpan={3}>
-							<p>Đối với các ngành hàng còn lại</p>
-						</td>
-						<td rowSpan={2}>
-							<p>30 ngày đầu tiên</p>
-						</td>
-						<td>
-							<p>Đổi mới</p>
-						</td>
-						<td rowSpan={2}>
-							<p>Trả hàng không thu phí</p>
-						</td>
-						<td rowSpan={3}>
-							<p>Không hỗ trợ đổi/ trả</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Trả không thu phí</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>30 ngày trở đi</p>
-						</td>
-						<td colSpan={2}>
-							<p>Không hỗ trợ đổi/ trả</p>
-						</td>
-					</tr>
+				<tr>
+					<td>
+						<p>&nbsp;</p>
+					</td>
+					<td>
+						<p>
+							<strong>KỂ TỪ KHI </strong>
+							<strong>BookStore </strong>
+							<strong>GIAO HÀNG THÀNH CÔNG</strong>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>
+								SẢN PHẨM LỖI
+								<br /> (do nhà cung cấp)
+							</strong>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>SẢN PHẨM KHÔNG LỖI&nbsp;(*)</strong>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>SẢN PHẨM LỖI DO NGƯỜI SỬ DỤNG</strong>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowSpan={4}>
+						<p>
+							Sản phẩm Điện tử, Đồ chơi điện - điện tử, điện gia
+							dụng,... (có tem phiếu bảo hành từ nhà cung cấp)
+						</p>
+					</td>
+					<td rowSpan={2}>
+						<p>7 ngày đầu tiên</p>
+					</td>
+					<td>
+						<p>Đổi mới</p>
+					</td>
+					<td rowSpan={3}>
+						<p>Trả hàng không thu phí</p>
+					</td>
+					<td rowSpan={4}>
+						<p>
+							Bảo hành hoặc sửa chữa có thu phí theo quy định của nhà
+							cung cấp.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Trả không thu phí</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>8 - 30 ngày</p>
+					</td>
+					<td>
+						<p>Bảo hành</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>30 ngày trở đi</p>
+					</td>
+					<td>
+						<p>Bảo hành</p>
+					</td>
+					<td>
+						<p>Không hỗ trợ đổi/ trả</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowSpan={3}>
+						<p>Voucher/ E-voucher</p>
+					</td>
+					<td rowSpan={2}>
+						<p>30 ngày đầu tiên</p>
+					</td>
+					<td>
+						<p>Đổi mới</p>
+					</td>
+					<td rowSpan={2}>
+						<p>Không hỗ trợ đổi/ trả</p>
+					</td>
+					<td rowSpan={2}>
+						<p>Không hỗ trợ đổi/ trả</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Trả hàng không thu phí</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>30 ngày trở đi</p>
+					</td>
+					<td colSpan={3}>
+						<p>Không hỗ trợ đổi trả</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowSpan={3}>
+						<p>Đối với các ngành hàng còn lại</p>
+					</td>
+					<td rowSpan={2}>
+						<p>30 ngày đầu tiên</p>
+					</td>
+					<td>
+						<p>Đổi mới</p>
+					</td>
+					<td rowSpan={2}>
+						<p>Trả hàng không thu phí</p>
+					</td>
+					<td rowSpan={3}>
+						<p>Không hỗ trợ đổi/ trả</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Trả không thu phí</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>30 ngày trở đi</p>
+					</td>
+					<td colSpan={2}>
+						<p>Không hỗ trợ đổi/ trả</p>
+					</td>
+				</tr>
 				</tbody>
 			</table>
 			<p>&nbsp;</p>
@@ -377,136 +378,136 @@ const PolicyPage: React.FC = () => {
 				className='table table-bordered'
 			>
 				<tbody>
-					<tr>
-						<td>
-							<p>
-								<strong>STT</strong>
-							</p>
-						</td>
-						<td>
-							<p>
-								<strong>Nội dung</strong>
-							</p>
-						</td>
-						<td>
-							<p>
-								<strong>Cách thức giải quyết</strong>
-							</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>1</p>
-						</td>
-						<td>
-							<p>
-								Lỗi kỹ thuật của sản phẩm - do nhà cung cấp (sách thiếu
-								trang, sút gáy, trùng nội dung, sản phẩm điện tử không
-								hoạt động..)
-							</p>
-						</td>
-						<td>
-							<p>ZoiBook có sản phẩm→ đổi mới cùng sản phẩm</p>
-							<p>
-								ZoiBook hết hàng→ Hoàn tiền hoặc quý khách có thể chọn
-								mặt hàng khác tại website{" "}
-								<span style={{ textDecoration: "underline" }}>
-									<a href='#!'>www.ZoiBook</a>
+				<tr>
+					<td>
+						<p>
+							<strong>STT</strong>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>Nội dung</strong>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>Cách thức giải quyết</strong>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>1</p>
+					</td>
+					<td>
+						<p>
+							Lỗi kỹ thuật của sản phẩm - do nhà cung cấp (sách thiếu
+							trang, sút gáy, trùng nội dung, sản phẩm điện tử không
+							hoạt động..)
+						</p>
+					</td>
+					<td>
+						<p>ZoiBook có sản phẩm→ đổi mới cùng sản phẩm</p>
+						<p>
+							ZoiBook hết hàng→ Hoàn tiền hoặc quý khách có thể chọn
+							mặt hàng khác tại website{" "}
+							<span style={{ textDecoration: "underline" }}>
+									<Link to='/'>www.BookStore</Link>
 								</span>
-								.
-							</p>
-							<p>Đổi/trả không thu phí</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>2</p>
-						</td>
-						<td>
-							<p>Sản phẩm hỏng do quý khách</p>
-						</td>
-						<td>
-							<p>Không hỗ trợ đổi/ trả</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>3</p>
-						</td>
-						<td>
-							<p>
-								Lý do đổi/trả sản phẩm như: khách đặt nhầm hoặc không
-								còn nhu cầu.
-							</p>
-						</td>
-						<td>
-							<p>&nbsp;</p>
-							<p>
-								Hỗ trợ thu hồi và hoàn tiền 100% giá trị sản phẩm cho
-								quý khách hàng.
-							</p>
-							<p>
-								**Lưu ý: ZoiBook rất tiếc sẽ không hỗ trợ hoàn lại chi
-								phí vận chuyển trong đơn hàng cho trường hợp này.
-							</p>
-							<p>Đổi /trả không thu phí</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>4</p>
-						</td>
-						<td>
-							<p>
-								Giao nhầm/ giao thiếu (thiếu sản phẩm đã đặt, thiếu phụ
-								kiện, thiếu quà tặng kèm theo)
-							</p>
-						</td>
-						<td>
-							<p>Giao nhầm → Đổi lại đúng sản phẩm đã đặt.</p>
-							<p>
-								Giao thiếu → Giao bù thêm số lượng còn thiếu theo đơn
-								hàng.
-							</p>
-							<p>Đổi /trả không thu phí</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>5</p>
-						</td>
-						<td>
-							<p>Chất lượng hàng hóa kém do vận chuyển</p>
-						</td>
-						<td>
-							<p>
-								Khi quý khách hàng nhận gói hàng bị móp méo, ướt, chúng
-								tôi khuyến cáo khách hàng nên kiểm tra thực tế hàng hóa
-								bên trong ngay thời điểm nhận hàng, vui lòng phản ảnh
-								hiện trang hàng hóa lên bill nhận hàng từ phía nhân viên
-								giao nhận và liên lạc với chúng tôi về hotline
-								1900-636467 trong vòng 48 giờ để được hỗ trợ giải quyết
-								cụ thể.
-							</p>
-							<p>Đổi /trả không thu phí</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>6</p>
-						</td>
-						<td>
-							<p>Hình thức sản phẩm không giống mô tả ban đầu</p>
-						</td>
-						<td>
-							<p>
-								Hãy liên hệ với chúng tôi qua số hotline 1900636467,
-								chúng tôi sẵn sàng lắng nghe và giải quyết cho bạn (cụ
-								thể theo từng trường hợp).
-							</p>
-							<p>Đổi /trả không thu phí</p>
-						</td>
-					</tr>
+							.
+						</p>
+						<p>Đổi/trả không thu phí</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>2</p>
+					</td>
+					<td>
+						<p>Sản phẩm hỏng do quý khách</p>
+					</td>
+					<td>
+						<p>Không hỗ trợ đổi/ trả</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>3</p>
+					</td>
+					<td>
+						<p>
+							Lý do đổi/trả sản phẩm như: khách đặt nhầm hoặc không
+							còn nhu cầu.
+						</p>
+					</td>
+					<td>
+						<p>&nbsp;</p>
+						<p>
+							Hỗ trợ thu hồi và hoàn tiền 100% giá trị sản phẩm cho
+							quý khách hàng.
+						</p>
+						<p>
+							**Lưu ý: ZoiBook rất tiếc sẽ không hỗ trợ hoàn lại chi
+							phí vận chuyển trong đơn hàng cho trường hợp này.
+						</p>
+						<p>Đổi /trả không thu phí</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>4</p>
+					</td>
+					<td>
+						<p>
+							Giao nhầm/ giao thiếu (thiếu sản phẩm đã đặt, thiếu phụ
+							kiện, thiếu quà tặng kèm theo)
+						</p>
+					</td>
+					<td>
+						<p>Giao nhầm → Đổi lại đúng sản phẩm đã đặt.</p>
+						<p>
+							Giao thiếu → Giao bù thêm số lượng còn thiếu theo đơn
+							hàng.
+						</p>
+						<p>Đổi /trả không thu phí</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>5</p>
+					</td>
+					<td>
+						<p>Chất lượng hàng hóa kém do vận chuyển</p>
+					</td>
+					<td>
+						<p>
+							Khi quý khách hàng nhận gói hàng bị móp méo, ướt, chúng
+							tôi khuyến cáo khách hàng nên kiểm tra thực tế hàng hóa
+							bên trong ngay thời điểm nhận hàng, vui lòng phản ảnh
+							hiện trang hàng hóa lên bill nhận hàng từ phía nhân viên
+							giao nhận và liên lạc với chúng tôi về hotline
+							1900-636467 trong vòng 48 giờ để được hỗ trợ giải quyết
+							cụ thể.
+						</p>
+						<p>Đổi /trả không thu phí</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>6</p>
+					</td>
+					<td>
+						<p>Hình thức sản phẩm không giống mô tả ban đầu</p>
+					</td>
+					<td>
+						<p>
+							Hãy liên hệ với chúng tôi qua số hotline 1900636467,
+							chúng tôi sẵn sàng lắng nghe và giải quyết cho bạn (cụ
+							thể theo từng trường hợp).
+						</p>
+						<p>Đổi /trả không thu phí</p>
+					</td>
+				</tr>
 				</tbody>
 			</table>
 			<p>&nbsp;</p>
